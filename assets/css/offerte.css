@@ -1,0 +1,181 @@
+/* ------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------- */
+/* This CSS file contains specific CSS animations and properties concerning elements on the 'Offerte' page */
+/* ------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------- */
+
+
+/* --------------- */
+/* Form Properties */
+/* --------------- */
+
+
+iframe {
+    position: absolute;
+    display: none;
+    width: 95%;
+    height: 100%;
+    max-width: 800px;
+    min-width: 270px;
+    height: 500px;
+    border: none;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+}
+
+.big-min-height {
+    min-height: 1000px;
+}
+
+.form-tab {
+    position: relative;
+    display: inline-block;
+    height: 450px;
+    min-width: 270px;
+    max-width: 800px;
+    width: 95%;
+}
+
+.offerte-form-input {
+    position: relative;
+    display: inline-block;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    box-shadow: 0px 0px 6px rgba(41, 50, 61, 0.2);
+    border-radius: 16px;
+    cursor: pointer;
+    transition: all 350ms;
+    border: 3px solid rgba(106, 230, 188, 0);
+}
+
+.offerte-form-input h1 {
+    cursor: pointer;
+    font-size: 1.85rem;
+}
+
+#website:checked ~ label[for="website"],
+#landing-page:checked ~ label[for="landing-page"],
+#web-applicatie:checked ~ label[for="web-applicatie"],
+#web-content:checked ~ label[for="web-content"],
+#marketing-content:checked ~ label[for="marketing-content"],
+#social-media-campagne:checked ~ label[for="social-media-campagne"],
+#web-optimalisatie:checked ~ label[for="web-optimalisatie"] {
+    border: 3px solid rgb(106, 230, 188);
+    background-color: rgba(106, 230, 188, 0.15);
+}
+
+input[name="service"] {
+    display: none;
+}
+
+#first-step {
+    max-width: 1400px;
+}
+
+#second-step, #third-step {
+    display: none;
+}
+
+form .button-filled {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .offerte-form-input h1 {
+        font-size: 1.5rem;
+    }
+}
+
+
+/* ---------------------- */
+/* Second Form Properties */
+/* ---------------------- */
+
+
+input, textarea {
+    padding: 1rem;
+    margin: 1%;
+    font-size: 1.25rem;
+    font-family: 'Bree Serif';
+    border-radius: 6px;
+    border: 3px solid rgba(106, 230, 188, 0);
+    box-shadow: 0px 0px 10px rgba(41, 50, 61, 0.25);
+    background-color: rgba(106, 230, 188, 0);
+    resize: none;
+    transition: all 250ms ease;
+    cursor: auto;
+    -webkit-appearance: none;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    box-shadow: 0px 0px 12px rgba(106, 230, 188, 0.35);
+    background-color: rgba(106, 230, 188, 0.2);
+    border: 3px solid rgba(106, 230, 188, 0);
+    -webkit-appearance: none;
+}
+
+input:hover, textarea:hover {
+    background-color: rgba(106, 230, 188, 0.1);
+    border: 3px solid rgba(106, 230, 188, 0);
+}
+
+input[type="submit"] {
+    font-size: 1.4rem;
+    display: none;
+}
+
+#contact-submit {
+    cursor: pointer;
+}
+
+#first-name, #last-name {
+    width: 48.75%;
+}
+
+#first-name {
+    margin-left: 0;
+}
+
+#last-name {
+    margin-right: 0;
+}
+
+#web-url, #email-address, #form-message {
+    width: 100%;
+    padding: 1rem;
+    margin: 1% 0;
+}
+
+@media only screen and (max-width: 1063px) {
+    input {
+        margin: 1% 0.5%
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    input, textarea {
+        font-size: 1.1rem;
+    }
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 50000s ease-in-out 0s;
+}
+
+#third-step .button-filled {
+    margin: 0;
+}
+
+#third-step .button-filled:hover {
+    margin: 0;
+    padding: 10px 25px;
+}
+

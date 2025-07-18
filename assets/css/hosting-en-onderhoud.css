@@ -1,0 +1,117 @@
+/* ------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------- */
+/* This CSS file contains specific CSS animations and properties concerning elements on the 'Hosting & Onderhoud' page */
+/* ------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+
+/* ------------- */
+/* Posts and CTA */
+/* ------------- */
+
+
+li {
+    margin-bottom: 0.85rem;
+}
+
+.fa-ul {
+    margin: 0 0 0 1.5rem;
+}
+
+li, p, h2 {
+    transition: color 350ms;
+}
+
+.mcta-post, .mcta-post-dark {
+    vertical-align: top;
+    position: relative;
+    display: inline-block;
+    width: 325px;
+    min-height: 450px;
+    padding: 30px;
+    margin: 70px 15px 0 15px;
+    box-shadow: 0px 0px 8px rgba(41, 50, 61, 0.15);
+    border-radius: 6px;
+    transition: background-color 350ms;
+}
+
+.mcta-post {
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.mcta-post ul li {
+    color: rgb(41, 50, 61);
+    font-family: 'Bree Serif';
+    font-size: 1.2rem;
+    letter-spacing: 0.075rem;
+    text-align: left;
+}
+
+.mcta-post:hover {
+    background-color: rgb(41, 50, 61);
+}
+
+.mcta-post:hover > h2 {
+    color: rgb(255, 255, 255);
+}
+
+.mcta-post:hover > p {
+    color: rgb(255, 255, 255);
+}
+
+.mcta-post:hover > ul li {
+    color: rgb(255, 255, 255);
+}
+
+.mcta-post-dark {
+    background-color: rgb(41, 50, 61);
+}
+
+.mcta-post h2, .mcta-post-dark h2 {
+    font-size: 2.2rem;
+    font-family: 'Bree Serif';
+}
+
+.mcta-post h3, .mcta-post-dark h3 {
+    color: rgb(106, 230, 188);
+    font-size: 1.8rem;
+}
+
+.mcta-post-dark h2, .mcta-post-dark p {
+    color: rgb(255, 255, 255);
+}
+
+.mcta-post .button-filled, .mcta-post-dark .button-filled {
+    background-color: rgb(106, 230, 188);
+}
+
+.mcta-post .button-filled:hover {
+    background-color: rgb(41, 50, 61);
+}
+
+.mcta-post-dark .button-filled:hover {
+    background-color: rgb(41, 50, 61);
+}
+
+#extra-wide-mcta {
+    width: 80%;
+    max-width: 400px;
+    min-width: 270px;
+}
+
+@media only screen and (max-width: 375px) {
+    .mcta-post, .mcta-post-dark {
+        width: 270px;
+    }
+}
+
+
+/* ----------------- */
+/* Footer Properties *//* -------------------------------------- */
+/* ----------------- */
+
+
+.footer {
+    margin-top: -150px;
+}

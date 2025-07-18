@@ -1,0 +1,74 @@
+/* -------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------- */
+/* This CSS file contains specific CSS animations and properties concerning elements on the 'Over Ons' page */
+/* -------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------- */
+
+
+/* ---------------- */
+/* Fonts and Quotes */
+/* ---------------- */
+
+
+q {
+    font-family: 'Bree Serif';
+    font-size: 1.65rem;
+    color: rgba(106, 230, 188, 0.9);
+}
+
+.transparant-text {
+    opacity: 0.65;
+}
+
+
+/* ------------------- */
+/* Articles and Titles */
+/* ------------------- */
+
+
+.subtitle {
+    font-family: 'Bree Serif';
+    font-size: 2rem;
+    margin-top: -0.9rem;
+}
+
+.centered-text p {
+    color: rgb(106, 230, 188);
+    cursor: pointer;
+    transition: opacity 250ms ease-in;
+}
+
+.centered-text p:hover {
+    opacity: 0.6;
+}
+
+.article-text-centered {
+    margin-top: -35px;
+}
+
+
+/* ------ */
+/* Footer */
+/* ------ */
+
+
+.footer {
+    margin-top: -200px;
+}
+
+
+/* --------------------------- */
+/* Extra Specific Responsivity */
+/* --------------------------- */
+
+
+@media only screen and (max-width: 450px) {
+    .article-text-centered {
+        width: unset;
+        max-width: 375px;
+        margin: 25px 0;
+        padding: 12.5px;
+        margin-top: -50px;
+    }
+} 

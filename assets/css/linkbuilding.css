@@ -1,0 +1,52 @@
+/* ------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------ */
+/* This CSS file contains specific CSS animations and properties concerning elements on the 'Linkbuilding' page */
+/* ------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------ */
+
+
+/* ------------------------ */
+/* Text and Font Properties *//* -------------------------------------- */
+/* ------------------------ */
+
+
+.mcta-post .button-filled, .mcta-post-dark .button-filled {
+    font-size: 1.4rem;
+    font-family: 'Bree Serif';
+}
+
+.centered-text p {
+    color: rgb(106, 230, 188);
+    cursor: pointer;
+    transition: opacity 250ms ease-in;
+}
+
+.centered-text p:hover {
+    opacity: 0.6;
+}
+
+.fa-sitemap {
+    position: relative;
+    bottom: 0;
+    font-size: 12.5rem;
+}
+
+.list-styled {
+    font-family: 'Bree Serif';
+    letter-spacing: 0.075rem;
+    font-size: 1.25rem;
+    color: rgb(41, 50, 61);
+    list-style: disc;
+    margin-left: 2.35rem;
+}
+
+
+/* ----------------- */
+/* Footer Properties *//* -------------------------------------- */
+/* ----------------- */
+
+
+.footer {
+    margin-top: 0;
+}
